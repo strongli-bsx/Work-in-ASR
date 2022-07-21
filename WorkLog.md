@@ -11,7 +11,7 @@
    -  Run sscom.exe and press RESET buttton, then you can see the version.Replace the old file with the new file in version folder.  
    -  Run Aboot.exe and click Release dashboard, choose the correspond chip, click Release button. After release finished, click the Download button. Specially, press the RESET button and the DOWNLOAD button in DKB and the chip will enter burn program mode.
    -  Note: You can read the log output of sscom to check the code.  
-    
+   
 2. git command:
    ```git  
    git checkout . : back file to workspace
@@ -28,7 +28,7 @@
     ```
 
 4. vim complier:
-   - commamd mode : use i, a, o etc to enter input mode. ues : to enter the last line mode.
+   - commamd mode : use i, a, o etc to enter input mode. ues '': ' to enter the last line mode.
    - input mode : edit
    - the last line mode : use q, w etc to quit the vim. **Note** the ESC can quit this mode anytime.
 
@@ -39,7 +39,7 @@
 
 
 
-   
+
 
 
 
