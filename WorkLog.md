@@ -32,6 +32,7 @@
    - input mode : edit
    - the last line mode : use q, w etc to quit the vim. **Note** the ESC can quit this mode anytime.
 
+---
 
   
 

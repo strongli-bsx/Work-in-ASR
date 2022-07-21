@@ -13,3 +13,5 @@
 - [ ] 测一组电流的大小
 - [ ] read bootloader code
 ***
+
+7.23
