@@ -1,3 +1,11 @@
+The Internet for server :
+```html
+https://sh2-cis01.asrmicro.com/guacamole/#/client/MjUAYwBwb3N0Z3Jlc3Fs
+https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
+```
+[jenkins](https://sh2-cis01.asrmicro.com/jenkins/view/gerrit)  
+[server](https://sh2-cis01.asrmicro.com/guacamole)
+
 ### 7.20
 
 > 1. About Burn：Use  Aboot, click Release, choose correspond file, click download.  
@@ -41,6 +49,7 @@
    > Note : the difference between LSR and RSR is the sign bit. ASR  sign bit is contant, while LSR donot have sign bit, and its highest bit is 0.
 
 2. Saturating Instruction. This instruction is to prevent the calculation results overflow.
+3. Contiki-NG OS.
    
 
 
