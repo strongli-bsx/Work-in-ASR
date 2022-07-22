@@ -33,6 +33,16 @@
    - the last line mode : use q, w etc to quit the vim. **Note** the ESC can quit this mode anytime.
 
 ---
+### 7.22
+1. STAR PROCESSOR  
+   - LSR : logical shift right
+   - ASR : arithmetic shift right
+   - ROR : rotote right
+   > Note : the difference between LSR and RSR is the sign bit. ASR  sign bit is contant, while LSR donot have sign bit, and its highest bit is 0.
+
+2. Saturating Instruction. This instruction is to prevent the calculation results overflow.
+   
+
 
   
 

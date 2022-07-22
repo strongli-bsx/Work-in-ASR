@@ -13,5 +13,9 @@
 - [ ] 测一组电流的大小
 - [ ] read bootloader code
 ***
-
-7.23
+Target in 1 month
+ 
+    bootloader and bootrom
+    基于contiki环境的系统  
+    用了PT thread的概念。  
+   
