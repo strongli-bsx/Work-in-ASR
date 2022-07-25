@@ -51,6 +51,10 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 2. Saturating Instruction. This instruction is to prevent the calculation results overflow.
 3. Contiki-NG OS.
    
+---
+### 7.25
+1. Learn concepts and advs. about Contiki OS, and details log in notebook.
+2. Create hello-world project. The initial OS has example folder, but also has hello-world.c file. Just follow the tutorial.
 
 
   
