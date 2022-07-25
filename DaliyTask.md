@@ -9,12 +9,16 @@
 
 ***
 7.22
-- [ ] 继续看STAR PROCESSOR的相关文档
-- [ ] 测一组电流的大小
-- [ ] read bootloader code
+- [x] 继续看STAR PROCESSOR的相关文档
+- [x] 测一组电流的大小
+- [x] read bootloader code
 ***
 Target in 1 month : bootloader and bootrom  
 
     基于contiki环境的系统  
     用了PT thread的概念。  
+
+7.25
+- [x] understand concepts for contiki, and  the key advs.(advantages) of it.
+- [x] read code.
    
