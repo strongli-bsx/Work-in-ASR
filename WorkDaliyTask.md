@@ -21,4 +21,4 @@ Target in 1 month : bootloader and bootrom
 7.25
 - [x] understand concepts for contiki, and  the key advs.(advantages) of it.
 - [x] read code.
-   
+---
