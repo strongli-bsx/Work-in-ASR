@@ -83,7 +83,7 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 
 6. Function Pointer
       ```c
-      int (*p)(int, int )/*The later brackets are parameters. The * is return value.
+      int (*p)(int, int ) //The later brackets are parameters. The * is return value.
       ```
                      
 
