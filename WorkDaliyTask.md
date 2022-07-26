@@ -22,3 +22,6 @@ Target in 1 month : bootloader and bootrom
 - [x] understand concepts for contiki, and  the key advs.(advantages) of it.
 - [x] read code.
 ---
+7.26
+- [x] run basic code in Ubuntu, such as compile etc.
+- [x] write some codes in Ubuntu.  

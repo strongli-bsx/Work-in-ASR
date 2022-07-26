@@ -56,6 +56,37 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 1. Learn concepts and advs. about Contiki OS, and details log in notebook.
 2. Create hello-world project. The initial OS has example folder, but also has hello-world.c file. Just follow the tutorial.
 
+---
+### 7.26
+1. Complie project in Ubuntu, generate .out file and run the file.
+2. Learn difference between and gcc and make. The first, gun, used only for compling, but make inclues gcc command in makefile.
+3. Git command. 
+   - rm filename : delete filename in local PC.
+   - git status -s : show file status in short.
+
+4. PROCESS_THREAD used list type to design.
+5. C
+   - typedef : 
+      ```c
+      typedef unsigned int UINT; //replace UINT to int, the later replace the former
+      
+      typedef struct Count{
+         int x;
+         int y;
+         int c;
+      }NUM;    //NUM replace Count various.
+      
+      typedef struct Count{
+         struct Count *p_Count;  //struct Count donot emit.
+      }*pC;  //define struct Count point *pC
+      ```
+
+6. Function Pointer
+      ```c
+      int (*p)(int, int )/*The later brackets are parameters. The * is return value.
+      ```
+                     
+
 
   
 
