@@ -4,6 +4,7 @@ https://sh2-cis01.asrmicro.com/guacamole/#/client/MjUAYwBwb3N0Z3Jlc3Fs
 https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 ```
 [jenkins](https://sh2-cis01.asrmicro.com/jenkins/view/gerrit)  
+
 [server](https://sh2-cis01.asrmicro.com/guacamole)
 
 ### 7.20
@@ -56,10 +57,8 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 1. Learn concepts and advs. about Contiki OS, and details log in notebook.
 2. Create hello-world project. The initial OS has example folder, but also has hello-world.c file. Just follow the tutorial.
 
-<<<<<<< HEAD
------
-=======
 ---
+
 ### 7.26
 1. Complie project in Ubuntu, generate .out file and run the file.
 2. Learn difference between and gcc and make. The first, gun, used only for compling, but make inclues gcc command in makefile.
@@ -88,9 +87,9 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
       ```c
       int (*p)(int, int ) //The later brackets are parameters. The * is return value.
       ```
-                     
+      
 
->>>>>>> b2094c0a84d8c168394c80b31d8710b06232ae99
+---
 
 ### 7.26
 
