@@ -56,8 +56,11 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 1. Learn concepts and advs. about Contiki OS, and details log in notebook.
 2. Create hello-world project. The initial OS has example folder, but also has hello-world.c file. Just follow the tutorial.
 
+-----
 
-  
+### 7.26
+
+Today did one thing: write a bug.
 
 
 
