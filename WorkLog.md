@@ -95,8 +95,29 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 
 Today did one thing: write a bug.
 
-
-
+---
+### 7.27
+1. Donot use numbers in code; use the macro replace it. The numbers is called devil numbers.
+2. "_A" : use in library function 
+   ```c
+   _func_ : const char type array, storage the current function name.
+   _FILE_ : string type, storage file name.
+   _TIME_ : string type, storage compile time.
+   _LINE_ : int type, storage line number.
+   _DATE_ : string type, storage complie data.
+   ```
+3. extern C : compile in C style.
+4. ifdef : 
+   ```c
+   #ifdef _LOG_H_ //if-else
+   #define _LOG_H_
+   #endif
+   ```
+5. macro:
+   ```c
+   ... // args list
+   _VA_ARGS_ ;//various macro
+   ```
 
 
 

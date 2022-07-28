@@ -25,3 +25,10 @@ Target in 1 month : bootloader and bootrom
 7.26
 - [x] run basic code in Ubuntu, such as compile etc.
 - [x] write some codes in Ubuntu.  
+---
+7.27
+- [x] read emmc.c code and qspi.c code
+---
+7.28
+- [x] read LOG codes
+- [x] read flasher, especially emmc codes. 
