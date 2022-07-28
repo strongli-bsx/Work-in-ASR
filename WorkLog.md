@@ -79,7 +79,7 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
       }NUM;    //NUM replace Count various.
       
       typedef struct Count{
-         struct Count *p_Count;  //struct Count donot emit.
+         struct Count *p_Count;  //struct Count donot omit.
       }*pC;  //define struct Count point *pC
       ```
 
@@ -119,7 +119,8 @@ Today did one thing: write a bug.
    _VA_ARGS_ ;//various macro
    ```
 
-
+6. LOG : use output info via comport. Note: rank different log, then when accomplished can omit low-level log.
+7. how to make pointer point address: int* p = (int *) 0x100;
 
 
 
