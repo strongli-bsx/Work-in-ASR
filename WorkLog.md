@@ -91,12 +91,12 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 
 ---
 
-### 7.26
+### 7.27
 
 Today did one thing: write a bug.
 
 ---
-### 7.27
+### 7.28
 1. Donot use numbers in code; use the macro replace it. The numbers is called devil numbers.
 2. "_A" : use in library function 
    ```c
@@ -122,8 +122,11 @@ Today did one thing: write a bug.
 6. LOG : use output info via comport. Note: rank different log, then when accomplished can omit low-level log.
 7. how to make pointer point address: int* p = (int *) 0x100;
 
-
-
+> **Note：** Log detailed after today. 
+### 7.29
+1. Learn how to output log in flasher mode.
+2. Read the revelant code in emmc, understand read codes and write codes.
+3. Read macro code in project.
 
 
 

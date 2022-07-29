@@ -32,3 +32,8 @@ Target in 1 month : bootloader and bootrom
 7.28
 - [x] read LOG codes
 - [x] read flasher, especially emmc codes. 
+---
+7.29
+- [x] make emmc.c lcear.
+- [ ] learn com port debug, and understand it use which studio. 
+---
