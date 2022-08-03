@@ -109,7 +109,7 @@ Today did one thing: write a bug.
 3. extern C : compile in C style.
 4. ifdef : 
    ```c
-   #ifdef _LOG_H_ //if-else
+   #ifndef _LOG_H_ //if it do not include __LOG__H__, then define ....
    #define _LOG_H_
    #endif
    ```
@@ -128,9 +128,33 @@ Today did one thing: write a bug.
 2. Read the revelant code in emmc, understand read codes and write codes.
 3. Read macro code in project.
 
+### 8.1
+1. Make test code successful.
+2. Be familiar with PROCESS, and make clear the PROCESS how to run.
+3. The last task: test access 0xd1f00000 via DMA in eMMC.   
+   **Note:** the most important part is accessing the memory via DMA, by means of read().  
+4. TASK:
+   > - ARM->RISC-V.
+   
+5. Details:
+   - static various : just global variable, meaning the init of various. It's `changeable`.
+   - macro : the replace various in code, it's unchangeable.
+  
+---
+### 8.2
+1. Read ARM-R/M cortex about startup and details write in future.
+2. Modify test_process.c file
+   - printf should not addr of *p at the same as printf content of *p.
+   - 32bit OS, 0xAA, 0x00, 0x00, 0x00.
+3. eMMC file write() and read() means write data to eMMC nor flash and read to assigned addr.
 
-
-
-
-
+---
+### 8.3
+1. Do task same as yesterday.
+2. > Note:
+   > - probe is init in project.  
+   > - make cmd: add cmd as `USEMODULE += FLASH` and `CFLAG += -DUSE` in makefile. 
+3. >  Aboot:
+   > -  when burn in ③, press RST at the same time press DWL **all the time**.
+   > -  when burn in ②, press DWL **all the time** at the same time press RST.
 

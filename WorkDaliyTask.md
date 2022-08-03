@@ -37,3 +37,17 @@ Target in 1 month : bootloader and bootrom
 - [x] make emmc.c lcear.
 - [ ] learn com port debug, and understand it use which studio. 
 ---
+8.1
+- [x] debug test code successfully.
+- [x] make process concept clearly and understand how to run.
+---
+8.2
+- [ ] Read revelant data about RISC-V.
+- [x] Make ARM-R/M startup clear.
+- [x] Modify test_process.  
+
+---
+8.3
+- [ ] Read revelant data about RISC-V.
+- [ ] Make ARM-R/M startup clear.
+- [ ] Continue to tset access memory process. 
