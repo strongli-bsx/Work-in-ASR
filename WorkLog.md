@@ -158,3 +158,13 @@ Today did one thing: write a bug.
    > -  when burn in ③, press RST at the same time press DWL **all the time**.
    > -  when burn in ②, press DWL **all the time** at the same time press RST.
 
+---
+### 8.4(Thu.)
+1. Complete the work that was not done yesterday--test_process in boo2 successful.
+2. There are many problems. But details is the key to accomplish work.
+3. 
+   ```c
+   if(cnt++)//cnt++ --> cnt += 1 This is a equation, that means is judged to be true.  
+   ```
+
+

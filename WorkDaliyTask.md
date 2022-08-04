@@ -49,5 +49,9 @@ Target in 1 month : bootloader and bootrom
 ---
 8.3
 - [ ] Read revelant data about RISC-V.
-- [ ] Make ARM-R/M startup clear.
-- [ ] Continue to tset access memory process. 
+- [x] Make ARM-R/M startup clear.
+- [x] Continue to tset access memory process. 
+
+---
+8.4
+- [x] Complete the work that was not done yesterday.
