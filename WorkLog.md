@@ -167,4 +167,32 @@ Today did one thing: write a bug.
    if(cnt++)//cnt++ --> cnt += 1 This is a equation, that means is judged to be true.  
    ```
 
+---
+### 8.5(Fri.)
+1. do nothing bucause of acid reflux.
+
+### 8.8(Mon.)
+1. 
+   ```c
+   _attribute_((weak))//weak func.,means declare a func. If user define the func, compile user, or compile weak.
+
+
+   void *p // no point type, means do not use the various
+   void data //means do not use 
+
+   char *p = 0 // means a null pointer
+   char *p, p = 0
+
+2. extern : use for declare static or global various, convenient for calling of other partition.
+
+3. uintptr_t : unsigned int, alignment
+
+4. typeof: receive the return value of the function.
+   
+### 8.9（Tue.)
+1. ```c
+   __attribute__(noinline)//no inline function
+   
+
+   
 
