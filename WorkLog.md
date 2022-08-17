@@ -9,7 +9,7 @@ https://sh2-cis01.asrmicro.com/jenkins/view/gerrit/
 
 ### 7.20
 
-> 1. About Burn：Use  Aboot, click Release, choose correspond file, click download.  
+> 1. About Burn : Use  Aboot, click Release, choose correspond file, click download.  
 > 2. How to know burn successsful? Add flag in log.  
 > 3. Map network dirve. Click network, find ip in service.
 
@@ -97,7 +97,7 @@ Today did one thing: write a bug.
 
 ---
 ### 7.28
-1. Donot use numbers in code; use the macro replace it. The numbers is called devil numbers.
+1. Do not use numbers in code; use the macro replace it. The numbers is called devil numbers.
 2. "_A" : use in library function 
    ```c
    _func_ : const char type array, storage the current function name.
@@ -139,7 +139,7 @@ Today did one thing: write a bug.
 5. Details:
    - static various : just global variable, meaning the init of various. It's `changeable`.
    - macro : the replace various in code, it's unchangeable.
-  
+
 ---
 ### 8.2
 1. Read ARM-R/M cortex about startup and details write in future.
@@ -169,8 +169,9 @@ Today did one thing: write a bug.
 
 ---
 ### 8.5(Fri.)
-1. do nothing bucause of acid reflux.
+1. do nothing because of acid reflux.
 
+---
 ### 8.8(Mon.)
 1. 
    ```c
@@ -189,10 +190,37 @@ Today did one thing: write a bug.
 
 4. typeof: receive the return value of the function.
    
-### 8.9（Tue.)
+---
+### 8.9(Tue.)
 1. ```c
    __attribute__(noinline)//no inline function
-   
+   ```
 
-   
+---
+### 8.10(Wed.)
+1. Read some summaries and write down.
+
+---
+### 8.11(Thu.)
+1. New Targets: Replace cm4 in cpu/arch/jacana with RISC-V.
+
+---
+### 8.12(Fri.)
+1. Read some material about RISC-V.
+
+---
+### 8.15(Mon.)
+1. Learn the book named RISC-V Reader.   
+
+---
+### 8.16(Tue.)
+1. Read book about RISC-V.
+2. Write relevant content down.
+
+---
+### 8.17(Wed.)
+1. Read book about asm.
+2. Write relevant content down.
+
+---
 
