@@ -223,4 +223,10 @@ Today did one thing: write a bug.
 2. Write relevant content down.
 
 ---
+### 8.18(Thu.)
+1. Install RISC-V compile environment.
 
+---
+### 8.19(Fri.)
+1. Install RISC-V compile environment totally.
+2. Run a test program in RVE.

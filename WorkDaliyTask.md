@@ -101,5 +101,16 @@ Then I waste some days for the unsmart girl.
 
 ---
 
-##### 8.18(Wed.)
+##### 8.17(Wed.)
 - [x] Read ASM book.
+
+---
+
+##### 8.18(Thu.)
+- [x] Install RISC-V environment.
+
+---
+
+##### 8.19(Fri.)
+- [x] Install RISC-V environment totally.
+- [x] Run a test program in RVE. 
