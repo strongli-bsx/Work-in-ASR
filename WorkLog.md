@@ -403,13 +403,15 @@ contiki-os的使用：
 
 ---
 
-5. 在arch（架构）下建立文件夹，名称同4.中的TARGET名称，如下：<img title="" src="WorkLog.asset/662e4712577ab921d48479c0157436e60f746eb1.jpg" alt="" data-align="left">
+5. 在arch（架构）下建立文件夹，名称同4.中的TARGET名称，如下：
+   <img title="" src="WorkLog.asset/662e4712577ab921d48479c0157436e60f746eb1.jpg" alt="" data-align="left">
 
         其中，必须包含的有`.lds`、`Makefile.jacana-riscv`文件，其余的看情况添加
 
 ---
 
-6. 在platform中同样建立同名文件夹，名称同4.中的TARGET名称，如下：<img title="" src="WorkLog.asset/43b8b0ef92c290ded31480908c3c06f6da6e2935.jpg" alt="" data-align="left">
+6. 在platform中同样建立同名文件夹，名称同4.中的TARGET名称，如下：
+   <img title="" src="WorkLog.asset/43b8b0ef92c290ded31480908c3c06f6da6e2935.jpg" alt="" data-align="left">
 
         其中，两个文件都是要包含的，其余的文件看情况添加
 
@@ -421,16 +423,19 @@ contiki-os的使用：
    
    - `Makefile.identify-target`中实现了找TARGET的功能，如果找到了TARGET，则使用定义的Makefile；若没找到，则使用`TARGET = native`；所以4.中定义了`TARGET=jacana-riscv`
    
-   - 接着`Makefile.include`中通过以下命令在`platform`文件夹中找TARGET同名文件下的Makefile，如下：<img src="WorkLog.asset/6a8cd266de2fc8e7486cf69d4cd043a6d6eed887.jpg" title="" alt="" data-align="left">
+   - 接着`Makefile.include`中通过以下命令在`platform`文件夹中找TARGET同名文件下的Makefile，如下：
+   <img src="WorkLog.asset/6a8cd266de2fc8e7486cf69d4cd043a6d6eed887.jpg" title="" alt="" data-align="left">
      
      ```makefile
         target_makefile := $(wildcard $(CONTIKI_NG_RELOC_PLATFORM_DIR)/$(TARGET)/Makefile.$(TARGET) \
                     $(foreach TDIR, $(TARGETDIRS), $(TDIR)/$(TARGET)/Makefile.$(TARGET)))
      ```
    
-   - 在`platform`中的`Makefile.jacana-riscv`（见6.）里面最后要包含arch(5.)中的`Makefile.jacana-riscv`路径，如下：<img src="WorkLog.asset/65d5394c1b0ca8db834568bae002441a9a420d99.jpg" title="" alt="" data-align="center">
+   - 在`platform`中的`Makefile.jacana-riscv`（见6.）里面最后要包含arch(5.)中的`Makefile.jacana-riscv`路径，如下：
+   <img src="WorkLog.asset/65d5394c1b0ca8db834568bae002441a9a420d99.jpg" title="" alt="" data-align="center">
    
-   - 在arch下的目标文件下Makefile(见5.)中要包含文件所用的架构（如arm、riscv等）的Makefile，如下：<img src="WorkLog.asset/24bc4b2660f9bf4b6a70716f0ee0a0c31d5fcf8b.jpg" title="" alt="" data-align="left">
+   - 在arch下的目标文件下Makefile(见5.)中要包含文件所用的架构（如arm、riscv等）的Makefile，如下：
+   <img src="WorkLog.asset/24bc4b2660f9bf4b6a70716f0ee0a0c31d5fcf8b.jpg" title="" alt="" data-align="left">
    
    - 在`Makefile.riscv`中则定义了工具链，以及CFLGAS、LDFLAGS等编译参数
    
