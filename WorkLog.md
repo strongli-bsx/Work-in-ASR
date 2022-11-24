@@ -1203,3 +1203,9 @@ handle_reset:
 3. 以**单下划线**（_）表明是**标准库**的变量，而**双下划线**（__） 开头表明是**编译器**的变量
 4. U: Unsigned int 的简写
 5. 在s模式的系统中，medeleg和mideleg寄存器必须存在；当发生在s模式或u模式时，在medeleg或mideleg中设置一个位，将代理相应的trap，送给s模式trap程序处理。在没有s模式的系统中，medeleg和mideleg寄存器不应该存在
+
+---
+
+11.24(Thu.)
+
+1. 
