@@ -229,6 +229,9 @@ $ git reflog
 八、远程同步
 
 ```shell
+#测试链接
+$  ssh -T git @ github.com 
+
 # 下载远程仓库的所有变动
 $ git fetch [remote]
 
