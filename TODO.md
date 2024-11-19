@@ -202,3 +202,97 @@ Then I waste some days for the unsmart girl.
 - [ ] Learn Makefile script.
 
 ---
+
+
+
+- [x] startup					(7.24 Mon)
+  - [x] vector.S               (7.26 Wed)
+  - [x] startup.c              (7.27 Thu)
+  - [x] lds                    (7.29 Sat)
+  
+- [x] plaform                   (7.27 Thu)
+  - [x] one					 (7.27 Thu)
+  - [x] two                    (7.27 Thu)
+  - [x] three                  (7.27 Thu)
+
+- [x] platform_init_stage_one    (7.27 Thu)
+  - [x] interrupts             （7.31 Mon）		
+  - [x] int-master-riscv        (7.31 Mon)
+
+​	
+
+---
+
+- [x] nv_counter conclusion
+- [x] erase all log: cmd_erase same as cmd_uplaod
+- [x] uart set in bootloader
+- [x] test jacana-riscv in fpga
+- [x] test jacana-riscv in pz1
+- [x] test nv_counter in cranew
+- [x] jlink shell
+- [x] json config
+- [x] cmd_partition
+- [ ] wait nv final plan
+- [ ] nv_counter in emmc
+- [x] aboot-tiny-mcu
+- [x] emmc read or write or erase
+- [x] qspi nor/nand flash read or write or erase
+- [x] dma
+- [ ] emmc_probe
+- [ ] emmc_tuning
+
+----
+
+- [x] read in details
+- [ ] 
+- [x] PCIe
+- [ ] 
+- [x] lds
+- [x] nor flash
+- [x] usb
+- [ ] 
+
+----
+
+BUS PROTOCOL
+
+- [ ] PCIe(use less)
+- [ ] SDHC
+- [ ] SDIO
+- [ ] USB
+- [ ] eMMC
+
+---------
+
+MODULE
+
+- [x] all-boot
+- [x] lzma
+- [x] fip
+- [x] ubi
+- [x] boot33
+
+
+
+---
+
+- [ ] linux kernal:usb
+- [ ] 字符设备
+- [ ] 块设备
+- [ ] 网络设备
+
+---
+
+- [x] heap/stack
+- [x] protothread
+
+---
+
+datasheet
+
+- [ ] pmic
+- [ ] psram
+- [ ] ddr
+- [ ] 
+
+---
